@@ -1,0 +1,211 @@
+project1,class1,method1,project2,class2,method2,cat
+commons-lang,NumberUtils,max(float[]),guava,Floats,max(float[]),1
+commons-lang,ExceptionUtils,getThrowableList(Throwable),guava,Throwables,getCausalChain(Throwable),1
+eclipse.jdt.core,ASTMatcher,"safeEquals(Object, Object)",commons-lang,ObjectUtils,"equals(Object, Object)",1
+commons-lang,StringUtils,"repeat(String, int)",guava,Strings,"repeat(String, int)",1
+eclipse.jdt.core,CharOperation,"concat(char[], char[])",commons-lang,ArrayUtils,"addAll(char[], char[])",1
+eclipse.jdt.core,Util,"equalOrNull(Object, Object)",commons-lang,ObjectUtils,"equals(Object, Object)",1
+checkstyle,CommonUtils,getFileExtension(String),guava,Files,getFileExtension(String),1
+commons-lang,NumberUtils,"compare(int, int)",openjdk8,Integer,"compare(int, int)",1
+openjdk8,CanonicalizerBase,"outputTextToWriter(String, OutputStream)",freemind,XMLElement,"writeEncoded(Writer, String)",1
+checkstyle,CommonUtils,getFileNameWithoutExtension(String),guava,Files,getNameWithoutExtension(String),1
+checkstyle,CommonUtils,isBlank(String),commons-lang,StringUtils,isBlank(CharSequence),1
+eclipse.jdt.core,Util,"concatWith(String[], char)",openjdk8,String,"join(CharSequence, CharSequence[])",1
+eclipse.jdt.core,Util,"equalArraysOrNull(Object[], Object[])",openjdk8,Arrays,"equals(Object[], Object[])",1
+eclipse.jdt.core,Util,"equalOrNull(Object, Object)",openjdk8,Objects,"equals(Object, Object)",1
+commons-collections,CollectionUtils,"addAll(Collection<C>, Iterator<?>)",guava,Iterators,"addAll(Collection<T>, Iterator<?>)",1
+commons-collections,SetUtils,"difference(Set<?>, Set<?>)",guava,Sets,"difference(Set<E>, Set<?>)",1
+deeplearning4j,MathUtils,nextPowOf2(long),guava,LongMath,ceilingPowerOfTwo(long),1
+deeplearning4j,MathUtils,"euclideanDistance(double[], double[])",commons-math,MathArrays,"distance(double[], double[])",1
+checkstyle,CommonUtils,getFileExtension(String),freemind,Tools,getExtension(String),1
+commons-lang,BooleanUtils,"compare(boolean, boolean)",openjdk8,Boolean,"compare(boolean, boolean)",1
+commons-math,FastMath,"copySign(double, double)",openjdk8,StrictMath,"copySign(double, double)",1
+checkstyle,BaseCellEditor,fireEditingStopped(),openjdk8,DefaultTreeSelectionModel,fireValueChanged(TreeSelectionEvent),1
+deeplearning4j,MnistDbFile,next(),hsqldb,TarGenerator.TarEntrySupplicant,makeXentry(),0
+checkstyle,JavadocUtils,getJavadocCommentContent(DetailAST),eclipse.jdt.core,Test,main(String[]),0
+checkstyle,JavadocTag,isReturnTag(),openjdk8,BerEncoder,putNull(int),0
+openjdk8,DefaultTreeSelectionModel,getSelectionPaths(),eclipse.swt,Slider,getSelection(),0
+commons-lang,ThreadUtils,findThreadGroupsByName(String),openjdk8,ThreadGroup,parentOf(ThreadGroup),0
+deeplearning4j,Subsampling1DLayer.Builder,padding(int),openjdk8,PBEWithMD5AndTripleDESCipher,engineSetPadding(String),0
+checkstyle,TokenTypesDoclet,optionLength(String),commons-lang,NumericEntityUnescaper,isSet(OPTION),0
+commons-math,CauchyDistribution,inverseCumulativeProbability(double),guava,StatsAccumulator,sum(),0
+deeplearning4j,SetUtils,"difference(Collection<?>, Collection<?>)",eclipse.jdt.core,Util,"prefixLength(char[], char[])",0
+commons-lang,CodePointTranslator,"translate(CharSequence, int, Writer)",openjdk8,SunGraphics2D,"translate(int, int)",0
+commons-math,BaseRuleFactory,"addRule(Pair<T[], T[]>)",openjdk8,AlphaComposite,getInstance(int),0
+guava,ImmutableClassToInstanceMap,of(),openjdk8,BasicSplitPaneDivider,getPreferredSize(),0
+deeplearning4j,KerasLstm,getGravesLSTMLayer(),openjdk8,Reference,getMessageDigestAlgorithm(),0
+deeplearning4j,SetUtils,"difference(Collection<?>, Collection<?>)",openjdk8,StandardGlyphVector,getGlyphInfo(),0
+commons-math,SolutionCallback,isSolutionOptimal(),eclipse.jdt.core,InfixExpression,hasExtendedOperands(),0
+commons-collections,AbstractIterableGetMapDecorator,mapIterator(),guava,ValueGraphBuilder,undirected(),0
+guava,CycleDetectingLockFactory,"newInstanceWithExplicitOrdering(Class<E>, Policy)",freemind,NodeAdapter,getPath(),0
+eclipse.jdt.core,BaseTypeBinding,isUncheckedException(boolean),freemind,Tools,printStackTrace(),0
+commons-collections,ComparatorChain,"addComparator(Comparator<E>, boolean)",guava,MoreExecutors,"shutdownAndAwaitTermination(ExecutorService, long, TimeUnit)",0
+openjdk8,JapaneseDate,"of(JapaneseEra, int, int, int)",trove,PrimeFinder,nextPrime(int),0
+deeplearning4j,MultiLayerNetwork,"output(INDArray, boolean)",eclipse.swt,StyledText,getSelectionRange(),0
+commons-math,TransformUtils,createComplexArray(double[][]),openjdk8,AnnotationParser,"parseAnnotations(byte[], ConstantPool, Class<?>)",0
+commons-math,OLSMultipleLinearRegression,calculateAdjustedRSquared(),guava,CharSource,readFirstLine(),0
+deeplearning4j,Layer.Builder,"learningRateSchedule(Map<Integer, Double>)",freemind,MapView,"scrollBy(int, int)",0
+commons-math,OLSMultipleLinearRegression,calculateResidualSumOfSquares(),openjdk8,GlyphMetrics,getAdvance(),0
+commons-lang,ExceptionUtils,getStackTrace(Throwable),openjdk8,URI,toASCIIString(),0
+eclipse.jdt.core,QualifiedName,getName(),openjdk8,X509CertImpl,getSubjectDN(),0
+commons-lang,ClassPathUtils,"toFullyQualifiedName(Package, String)",openjdk8,GSSNameImpl,export(),0
+commons-math,Line,isParallelTo(Line),eclipse.jdt.core,CharArrayUtils,"startsWith(char[], String)",0
+commons-collections,PeekingIterator,peekingIterator(Iterator<?>),commons-lang,NumberUtils,createBigInteger(String),0
+commons-collections,PredicatedCollection.Builder,addAll(Collection<?>),eclipse.jdt.core,CodeStream,writeSignedShort(int),0
+commons-collections,PredicatedCollection.Builder,createPredicatedQueue(Queue<E>),commons-lang,Fraction,getFraction(String),0
+checkstyle,BlockCommentPosition,isOnAnnotationDef(DetailAST),openjdk8,LoggingSupport,isAvailable(),0
+commons-collections,ZippingIterator,hasNext(),openjdk8,X509Data,containsIssuerSerial(),0
+commons-math,Variance,"evaluate(double[], double, int, int)",openjdk8,JTable,getScrollableTracksViewportWidth(),0
+commons-lang,HashCodeBuilder,append(float),openjdk8,UIDefaults,"getString(Object, Locale)",0
+checkstyle,DetailAST,getColumnNo(),openjdk8,RMIClassLoader,"loadClass(String, String)",0
+commons-lang,ArrayUtils,"swap(long[], int, int)",openjdk8,Cipher,"getInstance(String, Provider)",0
+deeplearning4j,CounterMap,invert(),openjdk8,ScrollPaneLayout,"addSingletonComponent(Component, Component)",0
+commons-lang,Range,toString(String),openjdk8,AudioFileWriter,isFileTypeSupported(AudioFileFormat.Type),0
+commons-math,SemiVariance,"evaluate(double[], Direction)",openjdk8,Phaser,awaitAdvanceInterruptibly(int),0
+guava,Tables,"immutableCell(R, C, V)",openjdk8,JSpinner.AccessibleJSpinner,getSelectionEnd(),0
+deeplearning4j,NeuralNetConfiguration.Builder,weightInit(WeightInit),openjdk8,BlowfishCipher,"engineInit(int, Key, SecureRandom)",0
+deeplearning4j,LossLayer,"computeScore(double, double, boolean)",freemind,HtmlTools,replaceSpacesToNonbreakableSpaces(String),0
+guava,ImmutableClassToInstanceMap,builder(),openjdk8,StyledEditorKit,getActions(),0
+deeplearning4j,ParallelWrapper.Builder,build(),openjdk8,ImageView,getStyleSheet(),0
+eclipse.jdt.core,OverflowingLRUCache,printStats(),freemind,LastOpenedList,"add(String, String)",0
+guava,UnsignedLong,mod(UnsignedLong),openjdk8,BasicSliderUI,getHighestValueLabel(),0
+commons-lang,TypeUtils.WildcardTypeBuilder,withUpperBounds(Type[]),openjdk8,BigInteger,negate(),0
+deeplearning4j,KerasLstm,getGravesLSTMLayer(),guava,ImmutableSetMultimap,builder(),0
+deeplearning4j,MathUtils,generateUniform(int),openjdk8,Surrogate.Parser,increment(),0
+checkstyle,BaseCheckTestSupport,"getCheckMessage(Class<?>, String, Object[])",commons-collections,TreeBidiMap,getKey(Object),0
+checkstyle,CheckstyleAntTask,scanFileSets(),deeplearning4j,KerasModelImport,"importKerasModelAndWeights(String, String, boolean)",0
+checkstyle,CheckstyleAntTask.Formatter,createListener(Task),commons-math,BinomialDistribution,getNumericalMean(),0
+openjdk8,BasicPanelUI,"getBaseline(JComponent, int, int)",guava,UnsignedInteger,mod(UnsignedInteger),0
+openjdk8,ArcFourCrypto,"getHmac(byte[], byte[])",deeplearning4j,KerasEmbedding,getEmbeddingLayer(),0
+checkstyle,JavadocTag,isParamTag(),hsqldb,JDBCSQLXML.SAX2DOMBuilder,checkClosed(),0
+openjdk8,ParagraphView,getTabSet(),commons-collections,TransformedQueue,getQueue(),0
+openjdk8,ButtonGroup,isSelected(ButtonModel),hsqldb,JDBCStatement,isPoolable(),0
+openjdk8,MultiTreeUI,"paint(Graphics, JComponent)",guava,Uninterruptibles,awaitUninterruptibly(CountDownLatch),0
+commons-collections,TransformedQueue,getQueue(),deeplearning4j,KerasConvolution,getConvolutionLayer(),0
+commons-collections,SwitchClosure,getClosures(),openjdk8,PerfLongArrayCounter,longArrayValue(),0
+checkstyle,DetectorOptions,newBuilder(),openjdk8,DSAParameterGenerator,engineGenerateParameters(),0
+deeplearning4j,KerasDense,getDenseLayer(),commons-collections,PredicatedQueue,decorated(),0
+deeplearning4j,Word2Vec.Builder,sampling(double),openjdk8,CRC32,getValue(),0
+eclipse.jdt.core,TestingEnvironment,"removeExternalJar(IPath, IPath)",openjdk8,JComboBox,removeItemListener(ItemListener),0
+openjdk8,XBaseWindow,setWMHints(XWMHints),trove,THashSet,clear(),0
+eclipse.jdt.core,FlowInfo,"mergedOptimizedBranches(FlowInfo, boolean, FlowInfo, boolean, boolean)",openjdk8,JvmMemoryImpl,getJvmMemoryNonHeapInitSize(),0
+commons-collections,AbstractSortedBagDecorator,decorated(),deeplearning4j,KerasBatchNormalization,getBatchNormalizationLayer(),0
+checkstyle,BlockCommentPosition,isOnClass(DetailAST),openjdk8,SignatureFileVerifier,needSignatureFileBytes(),0
+deeplearning4j,NeuralNetConfiguration.Builder,l2Bias(double),openjdk8,JvmMemPoolEntryImpl,getJvmMemPoolCollectCommitted(),0
+deeplearning4j,Subsampling1DLayer.Builder,padding(int),guava,Booleans,"ensureCapacity(boolean[], int, int)",0
+eclipse.jdt.core,ReferenceBinding,hasIncompatibleSuperType(ReferenceBinding),openjdk8,XPath2FilterContainer,isUnion(),0
+commons-collections,AbstractQueueDecorator,decorated(),openjdk8,ArcFourCrypto,"getHmac(byte[], byte[])",0
+commons-collections,SynchronizedMultiSet,decorated(),openjdk8,ChoiceFormat,toPattern(),0
+eclipse.jdt.core,Scope,innermostSwitchCase(),openjdk8,UniqueIdentity,getId(),0
+commons-math,ListPopulation,setPopulationLimit(int),openjdk8,WPrinterJob,setTextColor(Color),0
+commons-collections,AbstractBagDecorator,decorated(),commons-math,PolynomialSplineFunction,polynomialSplineDerivative(),0
+commons-math,DfpMath,"splitDiv(Dfp[], Dfp[])",openjdk8,URLClassPath,addURL(URL),0
+eclipse.jdt.core,ConstantPool,literalIndexForJavaLangObjectGetClass(),openjdk8,FutureTask,runAndReset(),0
+eclipse.jdt.core,Flags,isPrivate(int),openjdk8,SunToolkit,waitForIdle(long),0
+commons-lang,ObjectUtils,"equals(Object, Object)",openjdk8,Vector,elementAt(int),0
+commons-lang,ArrayUtils,"remove(T[], int)",commons-math,FieldExpandableODE,addSecondaryEquations(FieldSecondaryEquations<T>),0
+deeplearning4j,MathUtils,"tf(int, int)",eclipse.jdt.core,AptProject,projectClean(boolean),0
+deeplearning4j,MnistManager,setCurrent(int),eclipse.jdt.core,IndexBinaryFolder,execute(IProgressMonitor),0
+openjdk8,Charset,aliases(),freemind,LastOpenedList,save(),0
+guava,FluentIterable,"concat(Iterable<?>, Iterable<?>, Iterable<?>)",openjdk8,MotifBorders.InternalFrameBorder,"drawBottomBorder(Component, Graphics, int, int, int, int)",0
+checkstyle,CheckUtils,"parseDouble(String, int)",openjdk8,StampedLock,isWriteLocked(),0
+openjdk8,DeflaterInputStream,skip(long),freemind,Tools,removeTranslateComment(String),0
+commons-math,Vector2D,"angle(Vector2D, Vector2D)",openjdk8,BaseRowSet,setType(int),0
+openjdk8,ComponentView,createComponent(),freemind,MapSearchMarkerLocation,update(),0
+trove,TLinkedHashSet,forEach(TObjectProcedure<?>),freemind,Tools,xmlToDate(String),0
+commons-collections,IteratorUtils,"asIterator(Enumeration<?>, Collection<?>)",openjdk8,JInternalFrame.AccessibleJInternalFrame,getAccessibleName(),0
+commons-lang,StrBuilder,setNullText(String),eclipse.jdt.core,ASTNode,accept(ASTVisitor),0
+commons-lang,StrBuilder,"validateRange(int, int)",eclipse.jdt.core,TypeBinding,isBoundParameterizedType(),0
+commons-math,Erf,"erf(double, double)",eclipse.jdt.core,Visitors.AnnotatedNodeVisitor,visit(org.eclipse.jdt.core.dom.PackageDeclaration),0
+openjdk8,EmptyBorder,getBorderInsets(),trove,THashMap,"putAll(Map<?, ?>)",0
+eclipse.jdt.core,Util,sort(String[]),openjdk8,AbstractWriter,writeAttributes(AttributeSet),0
+openjdk8,Thread,setPriority(int),freemind,PasteAction,"paste(MindMapNode, MindMapNode)",0
+guava,Preconditions,"checkArgument(boolean, String, int, Object)",openjdk8,DecimalFormat,setNegativePrefix(String),0
+guava,UnsignedLong,doubleValue(),openjdk8,HTMLDocument,"insertBeforeEnd(Element, String)",0
+guava,Multisets,unmodifiableSortedMultiset(SortedMultiset<E>),openjdk8,AtomicIntegerArray,"getAndAccumulate(int, int, IntBinaryOperator)",0
+openjdk8,KeyInfoReference,getURIAttr(),freemind,MindMapMapModel,save(File),0
+commons-lang,StrBuilder,"replaceAll(String, String)",commons-math,OLSMultipleLinearRegression,calculateHat(),0
+openjdk8,CopyOnWriteArrayList,"set(int, E)",freemind,EdgeView,"paint(NodeView, Graphics2D)",0
+openjdk8,ForkJoinPool,hasQueuedSubmissions(),freemind,XMLElement,unexpectedEndOfData(),0
+openjdk8,TextLayout,getBaselineOffsets(),trove,TCustomHashMap,removeAt(int),0
+openjdk8,TrayIcon,setImage(Image),freemind,ExampleFileFilter,getExtension(File),0
+commons-math,Skewness,"evaluate(double[], int, int)",openjdk8,BigDecimal,ulp(),0
+guava,Iterators,getOnlyElement(Iterator<T>),openjdk8,BerEncoder,putOidValue(long[]),0
+guava,MoreExecutors,platformThreadFactory(),openjdk8,HTMLEditorKit,setStyleSheet(StyleSheet),0
+commons-lang,StringUtils,capitalize(String),guava,AtomicDouble,getAndAdd(double),0
+guava,Chars,max(char[]),openjdk8,AtomicReference,"compareAndSet(V, V)",0
+guava,AbstractMapTester,expectNullKeyMissingWhenNullKeysUnsupported(String),openjdk8,BaseRowSet,setCommand(String),0
+deeplearning4j,StringUtils,"pad(String, int)",guava,AbstractService,notifyStarted(),0
+openjdk8,UIManager,getLookAndFeelDefaults(),trove,THash,computeMaxSize(int),0
+openjdk8,Thread,join(long),freemind,UnicodeReader,init(),0
+deeplearning4j,ROC,getResults(),freemind,JMonthChooser,stateChanged(ChangeEvent),0
+openjdk8,Class,getTypeName(),freemind,EdgeView,"paint(NodeView, Graphics2D)",0
+commons-lang,ArrayUtils,clone(short[]),guava,Iterables,"filter(Iterable<?>, Class<T>)",0
+openjdk8,StringTokenizer,nextToken(),freemind,MindMapMapModel,save(File),0
+commons-math,DiagonalMatrix,subtract(DiagonalMatrix),openjdk8,JSlider,paramString(),0
+commons-lang,DiffBuilder,"append(String, char, char)",openjdk8,SunToolkit,getSunAwtErasebackgroundonresize(),0
+eclipse.jdt.core,NdResourceFile,isDoneIndexing(),guava,MoreExecutors,listeningDecorator(ExecutorService),0
+commons-math,SumOfSquares,"copy(SumOfSquares, SumOfSquares)",openjdk8,ToolTipManager,mouseExited(MouseEvent),0
+openjdk8,BigDecimal,toBigInteger(),freemind,JCalendar,setDecorationBackgroundVisible(boolean),0
+openjdk8,Raster,"getPixels(int, int, int, int, int[])",trove,TCustomHashMap,"retainEntries(TObjectObjectProcedure<?, ?>)",0
+eclipse.jdt.core,MirroredTypesException,getTypeMirrors(),openjdk8,JFrame.AccessibleJFrame,getAccessibleName(),0
+openjdk8,Uri,init(String),freemind,MapModuleManager,"close(boolean, StringBuffer)",0
+eclipse.jdt.core,Modifier,isFinal(),openjdk8,ElementTreePanel,"getPathForIndex(int, Object, Element)",0
+eclipse.jdt.core,ForStatement,"generateCode(BlockScope, CodeStream)",openjdk8,DefaultDesktopManager,minimizeFrame(JInternalFrame),0
+commons-lang,BooleanUtils,"toInteger(boolean, int, int)",openjdk8,Vector,"insertElementAt(E, int)",0
+openjdk8,Toolkit,createImage(byte[]),trove,TLinkedList.IteratorImpl,set(T),0
+openjdk8,Arrays,stream(int[]),freemind,XMLElement,scanPCData(StringBuffer),0
+openjdk8,ProcessBuilder,directory(File),freemind,JCalendar,setLocale(Locale),0
+eclipse.jdt.core,ToolFactory,createDefaultClassFileDisassembler(),openjdk8,PlainView,"nextTabStop(float, int)",0
+deeplearning4j,FilteredSequenceIterator,nextSequence(),guava,ArrayBasedEscaperMap,"create(Map<Character, String>)",0
+openjdk8,FileTime,toMillis(),trove,TPrimitiveHash,setUp(int),0
+openjdk8,ChoiceFormat,"setChoices(double[], String[])",freemind,NodeView,updateToolTip(),0
+openjdk8,BitSet,and(BitSet),freemind,NodeAdapter,"setStateIcon(String, ImageIcon)",0
+guava,Sets,newHashSet(),openjdk8,CoderResult,throwException(),0
+guava,LongMath,"checkedPow(long, int)",openjdk8,UnicodeSet,complement(),0
+openjdk8,DragSourceContext,transferablesFlavorsChanged(),trove,THashSet,removeAll(Collection<?>),0
+eclipse.jdt.core,Util,getResourceContentsAsByteArray(IFile),openjdk8,Files,"isSameFile(Path, Path)",0
+openjdk8,ClassLoader,getSystemResources(String),trove,THashSet,toArray(T[]),0
+commons-lang,ArrayUtils,"removeAll(float[], int[])",deeplearning4j,ComputationGraphConfiguration,addPreProcessors(InputType[]),0
+commons-collections,CollectionUtils,"isProperSubCollection(Collection<?>, Collection<?>)",commons-math,MathArrays,"convolve(double[], double[])",0
+commons-lang,ArrayUtils,"removeElement(int[], int)",openjdk8,Region,"setOutputAreaXYXY(int, int, int, int)",0
+guava,Iterables,"contains(Iterable<?>, Object)",openjdk8,Mac,init(Key),0
+commons-math,RealVector,getL1Distance(RealVector),deeplearning4j,SparkSequenceVectors,fitLists(JavaRDD<List<T>>),0
+commons-math,StatUtils,"variance(double[], double, int, int)",openjdk8,AtomicIntegerFieldUpdater,"getAndAccumulate(T, int, IntBinaryOperator)",0
+commons-math,MatrixUtils,createRealMatrixWithDiagonal(double[]),deeplearning4j,LabelsSource,getNumberOfLabelsUsed(),0
+commons-math,RRQRDecomposition,getSolver(),eclipse.jdt.core,Util,validateMethodSignature(String),0
+openjdk8,PKCS9Attribute,getName(),freemind,NodeNoteViewer,"setStateIcon(MindMapNode, boolean)",0
+commons-lang,ArrayUtils,nullToEmpty(Short[]),openjdk8,ConcurrentSkipListSet,spliterator(),0
+commons-math,FieldVector3D,subtract(FieldVector3D<T>),eclipse.jdt.core,JavaModelOperation,getCompilationUnitFor(IJavaElement),0
+openjdk8,HashAttributeSet,get(Class<?>),freemind,JMonthChooser,setLocale(Locale),0
+openjdk8,ZonedDateTime,now(Clock),freemind,JCalendar,setForeground(Color),0
+openjdk8,XmlConfigUtils,"write(ResultRecord, OutputStream, boolean)",freemind,Tools,"setPermissions(String, int)",0
+openjdk8,LdapName,"add(int, Rdn)",freemind,BrowseXMLElement,createAnotherElement(),0
+openjdk8,Collectors,"groupingByConcurrent(Function<?, ?>, Collector<?, A, D>)",trove,TCustomHashSet,toArray(T[]),0
+openjdk8,BasicSliderUI,"getBaseline(JComponent, int, int)",freemind,UnfoldAll,foldLastBranches(MindMapNode),0
+guava,Iterables,"indexOf(Iterable<T>, Predicate<?>)",openjdk8,IconView,getPreferredSpan(int),0
+openjdk8,DeflaterInputStream,skip(long),freemind,ControllerAdapter,"displayNode(MindMapNode, ArrayList)",0
+eclipse.jdt.core,JavaElement,"toStringInfo(int, StringBuffer, Object, boolean)",guava,GraphBuilder,expectedNodeCount(int),0
+commons-collections,ObjectArrayListIterator,set(E),openjdk8,ObjectName,isPropertyValuePattern(String),0
+openjdk8,AudioFileWriter,isFileTypeSupported(AudioFileFormat.Type),freemind,JCalendar,setLocale(Locale),0
+eclipse.jdt.core,CharOperation,charToString(char[]),openjdk8,AtomicReferenceArray,"getAndAccumulate(int, E, BinaryOperator<E>)",0
+checkstyle,CheckUtils,isElseIf(DetailAST),commons-math,GaussIntegratorFactory,hermite(int),0
+openjdk8,XMLStreamWriterImpl,writeStartDocument(),freemind,MindMapController,getPopupForModel(java.lang.Object),0
+openjdk8,ByteComponentRaster,"createCompatibleWritableRaster(int, int)",freemind,AddArrowLinkAction,"addLink(MindMapNode, MindMapNode)",0
+openjdk8,KeyStore,getInstance(String),freemind,XMLElement,"setIntAttribute(String, int)",0
+openjdk8,CopyOnWriteArrayList,listIterator(int),trove,THashMap,"putIfAbsent(K, V)",0
+openjdk8,Files,"isRegularFile(Path, LinkOption[])",freemind,XMLElement,setContent(String),0
+openjdk8,Arrays,toString(long[]),freemind,MindMapLinkRegistry,getLinkForId(String),0
+openjdk8,ProgressMonitor.AccessibleProgressMonitor,getCharacterAttribute(int),freemind,MainView,"isInVerticalRegion(double, double)",0
+deeplearning4j,EvaluationTools,rocChartToHtml(ROC),openjdk8,ExpressionStatement,"code(Environment, Context, Assembler)",0
+commons-lang,StrTokenizer,previous(),eclipse.jdt.core,ASTRewrite,getExtendedSourceRangeComputer(),0
+openjdk8,AlgorithmParameters,getInstance(String),freemind,MapView,"collectLabels(NodeView, HashMap)",0
+commons-math,FieldEventState,stepAccepted(FieldODEStateAndDerivative<T>),openjdk8,JPopupMenu,addSeparator(),0
+openjdk8,SnmpTools,"binary2ascii(byte[], int)",freemind,LastOpenedList,"add(String, String)",0
+openjdk8,MultiSeparatorUI,installUI(JComponent),freemind,ControllerAdapter,"close(boolean, MapModuleManager)",0
+commons-math,Fraction,divide(int),openjdk8,SimpleTimeZone,"setEndRule(int, int, int, int, boolean)",0
+commons-lang,EqualsBuilder,"reflectionEquals(Object, Object, String[])",deeplearning4j,SparkComputationGraph,"scoreExamples(JavaRDD<DataSet>, boolean)",0
+deeplearning4j,SequenceVectors.Builder,lookupTable(WeightLookupTable<T>),openjdk8,X509CRLEntryImpl,getCriticalExtensionOIDs(),0
+openjdk8,ObjectName,getKeyPropertyList(),freemind,XMLElement,checkLiteral(String),0
+openjdk8,HttpsURLConnectionImpl,"setProxiedClient(URL, String, int, boolean)",freemind,Tools,getExtension(String),0
+commons-math,TricubicInterpolatingFunction,"isValidPoint(double, double, double)",openjdk8,Transforms,"addTransform(String, Element)",0

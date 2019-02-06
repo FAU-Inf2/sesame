@@ -1,0 +1,31 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'commons-io', name: 'commons-io', version: '2.5'
+	compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.21.0.1'
+	compile group: 'com.google.guava', name: 'guava', version: '25.1-jre'
+
+	compile files('../lib/org.eclipse.core.resources_3.13.200.v20180925-1350.jar')
+	compile files('../lib/org.eclipse.osgi_3.13.200.v20180906-2135.jar')
+	compile files('../lib/org.eclipse.equinox.common_3.10.100.v20180827-1235.jar')
+	compile files('../lib/org.eclipse.equinox.preferences_3.7.200.v20180827-1235.jar')
+	compile files('../lib/org.eclipse.core.runtime_3.15.100.v20180907-0807.jar')
+	compile files('../lib/org.eclipse.core.jobs_3.10.200.v20180912-1356.jar')
+	compile files('../lib/org.eclipse.core.contenttype_3.7.100.v20180817-1401.jar')
+	compile files('../lib/org.eclipse.text_3.8.0.v20180923-1636.jar')
+	compile files('../lib/org.eclipse.jdt.core_3.16.0.v20181009-0614.jar')
+}
+
+task fatJar(type: Jar) {
+	exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA' 
+	baseName = project.name + '-all'
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+	with jar
+}
+
