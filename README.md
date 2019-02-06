@@ -1,10 +1,15 @@
 # SeSaMe
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2558378.svg)](https://doi.org/10.5281/zenodo.2558378)
+
 This repository contains the data set described in the paper
 
 Kamp, M., Kreutzer P., Philippsen M.: SeSaMe: A Data Set of Semantically
 Similar Java Methods. 16th International Conference on Mining Software
 Repositories (MSR 2019), Montreal, QC, Canada. 2019
+
+The data set is licenced under a [Creative Commons Attribution 4.0
+International Licence](http://creativecommons.org/licenses/by/4.0/).
 
 The repository consists of the following files:
 
@@ -23,4 +28,5 @@ is identified by its project, the file it is defined in, and the method
 signature.
 
 The database containing the mined methods, their JavaDoc comments and the
-computed similarity values.
+computed similarity values is not included in this repository. Use the Zenodo
+link above to retrieve it.
