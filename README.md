@@ -27,6 +27,13 @@ confidence assigned by the participants of the manual classification. A method
 is identified by its project, the file it is defined in, and the method
 signature.
 
+The similarity rating and the confidence are stored using a numeric value. In
+both cases, `-1` indicates an unknown value (the respective rater either did
+not rate this method pair or was unsure about it). For the similarity rating,
+`0`, `1`, and `2` correspond to *disagree*, *conditionally agree*, and *agree*,
+respectively. For the confidence rating, `0`, `1`, and `2` correspond to *low*,
+*medium*, and *high* confidence, respectively.
+
 The database containing the mined methods, their JavaDoc comments and the
 computed similarity values is not included in this repository. Use the Zenodo
 link above to retrieve it.
