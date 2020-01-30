@@ -36,4 +36,5 @@ respectively. For the confidence rating, `0`, `1`, and `2` correspond to *low*,
 
 The database containing the mined methods, their JavaDoc comments and the
 computed similarity values is not included in this repository. Use the Zenodo
-link above to retrieve it.
+link above to retrieve it. To obtain the source code of the analyzed
+repositories, invoke `make pull` in the `src` directory.

@@ -1,4 +1,4 @@
-.PHONY: all simopt crossopt clean distclean
+.PHONY: all pull simopt crossopt clean distclean
 
 ###################
 # GENERAL TARGETS #
@@ -13,6 +13,8 @@ all: repos/checked_out \
      toksim_calc \
      sampled.csv \
      html_out
+
+pull: repos/checked_out
 
 simopt: repos/checked_out_simopt docgen/build/libs/docgen-all.jar bin/activate
 	rm -f docs.db
